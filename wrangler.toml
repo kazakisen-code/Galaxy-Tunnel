@@ -1,3 +1,4 @@
-name = "Galaxy-tunnel" 
+# wrangler.toml
+name = 'galaxy-tunnel'
 main = "worker.js" 
 compatibility_date = "2026-06-01" 
