@@ -23,7 +23,7 @@ async function handleRequest(request) {
   // ၂။ Link ထည့်ထားရင် GitHub ကနေ SNI List ကို လှမ်းဖတ်ပြီး Sub Link ပွားပေးမယ်
   try {
     // ⚠️ အရေးကြီး - ဒီနေရာမှာ အစ်ကို့ GitHub Username နဲ့ Repo Name ကို ကွက်တိ ပြောင်းပေးပါ
-    const githubRawUrl = "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/sni.json";
+    const githubRawUrl = "https://raw.githubusercontent.com/kazakisen-code/Galaxy-Tunnel/refs/heads/main/sni.json";
     
     const response = await fetch(githubRawUrl);
     const sniList = await response.json();
